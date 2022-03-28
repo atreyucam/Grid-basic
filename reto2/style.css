@@ -1,0 +1,26 @@
+
+.container {
+  background-color: papayawhip;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+  grid-auto-flow: column;
+  gap: 15px;
+  /* alineacion */
+  place-content: center;
+  
+}
+.item span{
+    padding: 8px;
+    background-color: green;
+    color: white;
+    font-size: 2rem;
+}
+.item{
+    background-color: greenyellow;
+    display: grid;
+    justify-items: end;
+    align-items: end;
+    height: 100px;
+}

@@ -1,0 +1,31 @@
+.container {
+  border: 5px solid #e1bee7;
+  background-color: #fff1ff;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 75px 75px 75px;
+  place-content: center;
+  grid-template-areas: 
+    "header header header"
+    "side main main"
+    "side main main";
+}
+.item {
+  font-size: 2rem;
+}
+.item-1 {
+  border: 5px solid pink;
+  background-color: #fff1ff;
+  grid-area: header;
+}
+.item-2 {
+  border: 5px solid rgb(207, 134, 147);
+  background-color: #f1b8f1;
+  grid-area: side;
+
+}
+.item-3 {
+  border: 5px solid rgb(226, 71, 97);
+  background-color: #ec8cec;
+  grid-area: main;
+}

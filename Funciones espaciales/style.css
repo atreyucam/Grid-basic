@@ -1,0 +1,17 @@
+.containera {
+  border: 2px solid palevioletred;
+  background-color: papayawhip;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.item {
+  border: 2px solid purple;
+  font-size: 2rem;
+}
+.container2 {
+  border: 2px solid palevioletred;
+  background-color: papayawhip;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  margin-top: 100px;
+}
